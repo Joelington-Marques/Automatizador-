@@ -13,4 +13,9 @@ chute = int(chute_str)
 if(numero_secreto == chute):
     print("voce acertou")
 else:
-    print("voce errou")
+    if(chute > numero_secreto):
+        print("Voce errou! O seu chute foi maior do que o numero secreto")
+    elif(chute < numero_secreto):
+        print("Voce errou! O seu chute foi menor do que o numero secreto")
+
+print("Fim do jogo")
