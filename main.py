@@ -6,6 +6,9 @@ numero_secreto = 42
 
 chute_str = input("Digite o seu numero:")
 
+
+Trabalhar essas variaveis aqui.
+
 print("Voce digitou", chute_str)
 
 chute = int(chute_str)
