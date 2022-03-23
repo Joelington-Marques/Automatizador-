@@ -13,6 +13,10 @@ print("Voce digitou", chute_str)
 
 chute = int(chute_str)
 
+acertou = chute == numero_secreto
+maior = chute > numero_secreto
+menor = chute < numero_secreto
+
 if(numero_secreto == chute):
     print("voce acertou")
 else:
